@@ -7,8 +7,12 @@ brew "tmux"
 cask "alt-tab"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Collaborative team software
+cask "figma"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Calculator and converter application
 cask "numi"
 # Collaboration platform for API development
