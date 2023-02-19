@@ -99,3 +99,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ll='ls -alF'
+alias la=';a -A'
+
+# custom for development
+alias dev="sh ~/.dotfiles/scripts/dev.sh"
+alias gs='git status'
+alias gitlog='git log --graph --decorate --all --oneline'
+alias ga='git add'
