@@ -1,6 +1,8 @@
 tap "homebrew/bundle"
 # Distributed revision control system
 brew "git"
+# Platform built on V8 to build network applications
+brew "node"
 # Terminal multiplexer
 brew "tmux"
 # Enable Windows-like alt-tab
