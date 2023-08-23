@@ -108,3 +108,6 @@ alias dev="sh ~/.dotfiles/scripts/dev.sh"
 alias gs='git status'
 alias gitlog='git log --graph --decorate --all --oneline'
 alias ga='git add'
+source /Users/jakub/.docker/init-zsh.sh || true # Added by Docker Desktop
+
+

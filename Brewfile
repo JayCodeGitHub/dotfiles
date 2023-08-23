@@ -1,27 +1,41 @@
 tap "homebrew/bundle"
-# Distributed revision control system
+brew "python@3.11"
+brew "binwalk"
+brew "ffmpeg"
 brew "git"
-# Platform built on V8 to build network applications
 brew "node"
-# Terminal multiplexer
 brew "tmux"
-# Enable Windows-like alt-tab
+brew "wget"
 cask "alt-tab"
-# App to build and share containerized applications and microservices
+cask "devtoys"
 cask "docker"
-# Collaborative team software
 cask "figma"
-# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# App to write, plan, collaborate, and get organized
 cask "notion"
-# Calculator and converter application
 cask "numi"
-# Collaboration platform for API development
 cask "postman"
-# Control your tools with a few keystrokes
 cask "raycast"
-# Move and resize windows with ease
+cask "robo-3t"
 cask "spectacle"
-# Open-source code editor
 cask "visual-studio-code"
+cask "warp"
+vscode "austenc.tailwind-docs"
+vscode "bradlc.vscode-tailwindcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.auto-close-tag"
+vscode "formulahendry.auto-rename-tag"
+vscode "heybourn.headwind"
+vscode "morgan-codes.morgan-codes-vscode-theme"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "patbenatar.advanced-new-file"
+vscode "PKief.material-icon-theme"
+vscode "Prisma.prisma"
+vscode "styled-components.vscode-styled-components"
+vscode "vscode-icons-team.vscode-icons"
