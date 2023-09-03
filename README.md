@@ -29,6 +29,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.vscode/ ~/.vscode/
 ln -s ~/.dotfiles/.oh-my-zsh/ ~/.oh-my-zsh/
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/nvim ~/.config/
 ```
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
