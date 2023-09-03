@@ -6,7 +6,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-tmux attach-session
+tmux attach-session -t 0
 
 alias ll='ls -alF'
 alias la=';a -A'
