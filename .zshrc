@@ -103,6 +103,8 @@ source $ZSH/oh-my-zsh.sh
 alias ll='ls -alF'
 alias la=';a -A'
 
+alias vim=nvim
+
 # custom for development
 alias dev="sh ~/.dotfiles/scripts/dev.sh"
 alias gs='git status'
